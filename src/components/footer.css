@@ -1,0 +1,24 @@
+footer {
+  background-color: hsl(168, 50%, 64%);
+  color: hsl(167, 34%, 41%);
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer--links {
+  margin-top: 30px;
+}
+.footer--links a {
+  text-decoration: none;
+  margin: 0px 30px;
+  color: hsl(167, 33%, 34%);
+}
+.footer--socialicons span {
+  margin: 0px 20px;
+}
+.footer--socialicons {
+  margin-top: 90px;
+}

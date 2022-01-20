@@ -1,0 +1,49 @@
+.testimonials {
+  padding: 20px 0px;
+  margin-bottom: 40px;
+}
+.testimonials h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color: hsl(210, 4%, 67%);
+  text-align: center;
+}
+.client--wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 30px;
+}
+.client--img {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  margin-top: 40px;
+}
+.client--img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.client--wrapper p {
+  color: hsl(212, 27%, 19%);
+  letter-spacing: 0.6px;
+  line-height: 22px;
+}
+.client--wrapper h4 {
+  margin: 0px;
+  margin-top: 5px;
+}
+.client--wrapper .job {
+  margin: 0px;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  article {
+    display: flex;
+  }
+}
